@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="1.css"?>
+<!DOCTYPE car SYSTEM "1.dtd"[
+<!ENTITY m "Mahindra Thar">
+<!ENTITY h "Hyundai Creta">
+<!ENTITY t "Toyota">
+]>
+<car>
+<make>&m;</make>
+<year>2020</year>
+<color>Grey</color>
+<engine><number_of_cylinders> 4 cylinder</number_of_cylinders>
+<fuel_system> CRDi </fuel_system>
+</engine>
+<number_of_doors >3</number_of_doors >
+<transmission_type>Manual</transmission_type>
+
+<accessories >
+<radio>yes</radio>
+<air_conditioning>Yes</air_conditioning>
+<power_windows >Yes</power_windows >
+<power_steering  >Yes</power_steering  >
+<power_brakes   >Yes</power_brakes   >
+</accessories >
+
+<make>&h;</make>
+<year>2020</year>
+<color>black</color>
+<engine><number_of_cylinders> 4 cylinder</number_of_cylinders>
+<fuel_system> GDi </fuel_system>
+</engine>
+<number_of_doors >4</number_of_doors >
+<transmission_type>Automatic</transmission_type>
+
+<accessories >
+<radio>Yes</radio>
+<air_conditioning>Yes</air_conditioning>
+<power_windows >Yes</power_windows >
+<power_steering  >Yes</power_steering  >
+<power_brakes   >Yes</power_brakes   >
+</accessories >
+</car>

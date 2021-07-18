@@ -1,0 +1,51 @@
+<?xml version = "1.0"?>  
+<?xml-stylesheet type = "text/xsl" href = "prg4.xsl"?>   
+<class>   
+	<employee id = "198">   
+      <firstname>Preetham</firstname>   
+      <lastname>U</lastname>   
+      <middlename>poojary</middlename>   
+      <fathername>Rajappa</fathername>  
+       <dob>18-06-1995</dob>
+       <city>Manglore</city>
+       <state>Karnataka</state>
+       <qualification>ITI</qualification>
+       <salary>89500</salary>
+   </employee>
+      
+   <employee id = "145">   
+      <firstname>Sandesha</firstname>   
+      <lastname>s</lastname>   
+      <middlename>poojary</middlename>   
+      <fathername>Rajeev</fathername>  
+       <dob>15-04-2001</dob>
+       <city>Karkala</city>
+       <state>Karnataka</state>
+       <qualification>BA</qualification>
+       <salary>75000</salary>
+   </employee>  
+	<employee id = "103">  
+      <firstname>Sukesh</firstname>   
+      <lastname>m</lastname>   
+      <middlename>kumar</middlename>   
+      <fathername>Subramanya</fathername>  
+       <dob>14-09-1999</dob>
+       <city>Manglore</city>
+       <state>Karnataka</state>
+       <qualification>BCOM</qualification>
+       <salary>48000</salary>
+   </employee>
+   <employee id = "148">   
+      <firstname>Prithvi</firstname>   
+      <lastname>k</lastname>   
+      <middlename>poojary</middlename>   
+      <fathername>Vishwanatha</fathername>  
+       <dob>28-12-1999</dob>
+       <city>Manglore</city>
+       <state>Karnataka</state>
+       <qualification>MCA</qualification>
+       <salary>101000</salary>
+   </employee>
+   
+     
+</class>  

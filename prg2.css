@@ -1,0 +1,20 @@
+*{
+	display: block;
+	background-color:wheat;
+}
+
+ad{
+padding:80px;
+background-color: white;
+
+}
+make,model,description,seller{
+    color: red;
+    font-weight:  bolder;
+    font-family:  helvetica;
+
+}
+year, color, price{
+ color:  black;
+}
+ 

@@ -1,0 +1,64 @@
+<?xml version = "1.0"  encoding = "utf-8"?>
+<!DOCTYPE student_catalog [
+<!ELEMENT student_catalog (student+)>
+<!ELEMENT student (name, address, marks, hobbies)>
+<!ELEMENT name (fname, lname, mname)>
+<!ELEMENT address (houseno, streetname, cityname, state)>
+<!ELEMENT marks (#PCDATA)>
+<!ELEMENT hobbies (#PCDATA)>
+]>
+<?xml-stylesheet type="text/css" href="prg3.css"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:student_catalog>
+ <xs:student>
+   <xs:name> 
+  	<xs:fname> Nithin </xs:fname>
+	<xs:lname> poojary </xs:lname>
+	<xs:mname> k </xs:mname>
+   </xs:name>
+   <xs:address>
+	<xs:houseno> 15 </xs:houseno>
+	<xs:streetname> Venoor </xs:streetname>
+	<xs:cityname> manglore </xs:cityname>
+	<xs:state> Karnataka </xs:state>
+   </xs:address>
+   <xs:marks> 89 </xs:marks>
+   <xs:hobbies> Photography,agricultur </xs:hobbies>
+  </xs:student>
+</xs:student_catalog>
+<xs:student_catalog>
+ <xs:student>
+   <xs:name> 
+  	<xs:fname> Sandesh </xs:fname>
+	<xs:lname> Birva</xs:lname>
+	<xs:mname> s </xs:mname>
+   </xs:name>
+   <xs:address>
+	<xs:houseno> 106 </xs:houseno>
+	<xs:streetname> belthangady </xs:streetname>
+	<xs:cityname> manglore </xs:cityname>
+	<xs:state> Karnataka </xs:state>
+   </xs:address>
+   <xs:marks> 89 </xs:marks>
+   <xs:hobbies> kabbadi,photography </xs:hobbies>
+  </xs:student>
+</xs:student_catalog>
+
+<xs:student_catalog>
+ <xs:student>
+   <xs:name> 
+  	<xs:fname> Preetham </xs:fname>
+	<xs:lname> poojary </xs:lname>
+	<xs:mname> u </xs:mname>
+   </xs:name>
+   <xs:address>
+	<xs:houseno> 255 </xs:houseno>
+	<xs:streetname> kaikamba </xs:streetname>
+	<xs:cityname> manglore </xs:cityname>
+	<xs:state> Karnataka </xs:state>
+   </xs:address>
+   <xs:marks> 78 </xs:marks>
+   <xs:hobbies> traveling </xs:hobbies>
+  </xs:student>
+</xs:student_catalog>
+</xs:schema>

@@ -1,0 +1,49 @@
+<!DOCTYPE flight_catalog SYSTEM "prg2.dtd"[
+<!ENTITY c "Cessna">
+<!ENTITY p "Piper">
+<!ENTITY b "Beechcraft">
+]>
+
+<?xml-stylesheet type="text/css" href="prg2.css"?>
+
+<planes_for_sale>
+	<ad>
+		<make> &c; </make>
+		<year> 2010 </year>
+		<model> L200-100</model>
+		<color> red and White </color>
+		<description>Blackmac Carbon, 5blade composite, digitally controlled with reversing. </description>
+		<price> Rs. 65,300 </price>
+		<seller phone = "8965123470" email = "planeseller@gmail.com"> INDIGO Aircraft </seller>
+		<location>
+			<city> Banglore </city>
+			<state> Karnataka </state>
+		</location>
+	</ad>
+	<ad>
+		<make> &p; </make>
+		<year> 2009 </year>
+		<model> asd741 </model>
+		<color> white  </color>
+		<description> We have the best aircraft in the world. </description>
+		<price> Rs. 45,445 </price>
+		<seller phone = "6547893210" > Manglore Aircraft </seller>
+		<location>
+			<city> Manglore </city>
+			<state> karnataka </state>
+		</location>
+	</ad>
+	<ad>
+		<make> &b; </make>
+		<year> 2004 </year>
+		<model> 560-100 </model>
+		<color> Blue and White </color>
+		<description> coose the best plane from beechcraft with all specifications. </description>
+		<price> Rs. 29,200 </price>
+		<seller phone = "7985602314"> Fly Aircraft </seller>
+		<location>
+			<city> Mangalore </city>
+			<state> Karnataka </state>
+		</location>
+	</ad>
+</planes_for_sale>

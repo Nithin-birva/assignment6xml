@@ -1,0 +1,25 @@
+*{
+	display:block;
+}
+student_catalog{
+	display:block;
+	background-color: wheat;
+	padding:  30px;
+	border:solid;
+	
+
+}
+
+name{
+	color: white ;
+	font-weight: bolder;
+	font-family: algerian;
+	background-color:black;
+	width:20%;
+}
+
+address,marks,hobbies{
+	color:black;
+	background-color:orange;
+	width:20%;
+}
